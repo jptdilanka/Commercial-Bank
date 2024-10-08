@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\viewmember.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\commercial bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\l e n o v o\\source\\repos\\bperp\\commercial bank\\commercial bank\\updatedelete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\updatedelete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewMember.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.cs",
+              "RelativeToolTip": "Commercial Bank\\ViewMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:27:32.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateDelete.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\UpdateDelete.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\UpdateDelete.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:45:05.47Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateDelete.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\UpdateDelete.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeToolTip": "Commercial Bank\\UpdateDelete.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvyEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:45:48.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewMember.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\ViewMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:29:37.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewMember.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.Designer.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.Designer.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\ViewMember.Designer.cs",
+              "RelativeToolTip": "Commercial Bank\\ViewMember.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAEwGgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:29:20.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddMember.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AddMember.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\AddMember.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\AddMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:28:38.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddMember.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AddMember.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeToolTip": "Commercial Bank\\AddMember.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAArwHgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:45:29.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\MainForm.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\MainForm.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\MainForm.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T16:15:59.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Login.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Login.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Login.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:57:29.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Login.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Login.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Login.cs",
+              "RelativeToolTip": "Commercial Bank\\Login.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:58:20.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\MainForm.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\MainForm.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\MainForm.cs",
+              "RelativeToolTip": "Commercial Bank\\MainForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:28:12.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Program.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Program.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Program.cs",
+              "RelativeToolTip": "Commercial Bank\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:32:23.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Transaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Transaction.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Transaction.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Transaction.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\Transaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:38:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Transaction.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Transaction.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Transaction.cs",
+              "RelativeToolTip": "Commercial Bank\\Transaction.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:38:28.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateDelete.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.Designer.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\UpdateDelete.Designer.cs",
+              "ToolTip": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\UpdateDelete.Designer.cs",
+              "RelativeToolTip": "Commercial Bank\\UpdateDelete.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:46:17.534Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
