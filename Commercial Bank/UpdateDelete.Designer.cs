@@ -30,8 +30,6 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            label11 = new Label();
-            label10 = new Label();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
@@ -51,32 +49,10 @@
             label1 = new Label();
             label12 = new Label();
             label9 = new Label();
-            MemberSDGV = new DataGridView();
+            dgv = new DataGridView();
             button4 = new Button();
-            ((System.ComponentModel.ISupportInitialize)MemberSDGV).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Century Gothic", 7.8F, FontStyle.Bold | FontStyle.Italic);
-            label11.ForeColor = Color.Black;
-            label11.Location = new Point(458, 608);
-            label11.Name = "label11";
-            label11.Size = new Size(248, 16);
-            label11.TabIndex = 43;
-            label11.Text = "ontact:codeidcodespace@gmail.com";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Century Gothic", 7.8F, FontStyle.Bold | FontStyle.Italic);
-            label10.ForeColor = Color.Black;
-            label10.Location = new Point(504, 591);
-            label10.Name = "label10";
-            label10.Size = new Size(168, 16);
-            label10.TabIndex = 42;
-            label10.Text = "DevelopedByCodeSpace";
             // 
             // button3
             // 
@@ -85,7 +61,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(232, 516);
+            button3.Location = new Point(223, 536);
             button3.Name = "button3";
             button3.Size = new Size(100, 45);
             button3.TabIndex = 41;
@@ -100,7 +76,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(132, 516);
+            button2.Location = new Point(123, 536);
             button2.Name = "button2";
             button2.Size = new Size(94, 45);
             button2.TabIndex = 40;
@@ -115,7 +91,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(29, 516);
+            button1.Location = new Point(20, 536);
             button1.Name = "button1";
             button1.Size = new Size(97, 45);
             button1.TabIndex = 39;
@@ -129,7 +105,7 @@
             AccNoTb.ForeColor = Color.Black;
             AccNoTb.Location = new Point(42, 395);
             AccNoTb.Name = "AccNoTb";
-            AccNoTb.Size = new Size(257, 28);
+            AccNoTb.Size = new Size(257, 33);
             AccNoTb.TabIndex = 37;
             // 
             // AccTypeCb
@@ -139,7 +115,7 @@
             AccTypeCb.Items.AddRange(new object[] { "Savings Account", "Current Account" });
             AccTypeCb.Location = new Point(42, 467);
             AccTypeCb.Name = "AccTypeCb";
-            AccTypeCb.Size = new Size(257, 29);
+            AccTypeCb.Size = new Size(257, 31);
             AccTypeCb.TabIndex = 36;
             // 
             // label8
@@ -149,7 +125,7 @@
             label8.ForeColor = SystemColors.Highlight;
             label8.Location = new Point(42, 434);
             label8.Name = "label8";
-            label8.Size = new Size(127, 21);
+            label8.Size = new Size(153, 24);
             label8.TabIndex = 35;
             label8.Text = "Account Type";
             // 
@@ -160,7 +136,7 @@
             GenderCb.Items.AddRange(new object[] { "Male", "Female" });
             GenderCb.Location = new Point(42, 331);
             GenderCb.Name = "GenderCb";
-            GenderCb.Size = new Size(257, 29);
+            GenderCb.Size = new Size(257, 31);
             GenderCb.TabIndex = 34;
             // 
             // label7
@@ -170,7 +146,7 @@
             label7.ForeColor = SystemColors.Highlight;
             label7.Location = new Point(42, 307);
             label7.Name = "label7";
-            label7.Size = new Size(74, 21);
+            label7.Size = new Size(89, 24);
             label7.TabIndex = 33;
             label7.Text = "Gender";
             // 
@@ -181,7 +157,7 @@
             label6.ForeColor = SystemColors.Highlight;
             label6.Location = new Point(42, 243);
             label6.Name = "label6";
-            label6.Size = new Size(45, 21);
+            label6.Size = new Size(53, 24);
             label6.TabIndex = 32;
             label6.Text = "Age";
             // 
@@ -191,7 +167,7 @@
             AgeTb.ForeColor = Color.Black;
             AgeTb.Location = new Point(42, 276);
             AgeTb.Name = "AgeTb";
-            AgeTb.Size = new Size(257, 28);
+            AgeTb.Size = new Size(257, 33);
             AgeTb.TabIndex = 31;
             // 
             // label5
@@ -201,7 +177,7 @@
             label5.ForeColor = SystemColors.Highlight;
             label5.Location = new Point(42, 179);
             label5.Name = "label5";
-            label5.Size = new Size(133, 21);
+            label5.Size = new Size(166, 24);
             label5.TabIndex = 30;
             label5.Text = "Phone Number";
             // 
@@ -211,7 +187,7 @@
             PhoneTb.ForeColor = Color.Black;
             PhoneTb.Location = new Point(42, 212);
             PhoneTb.Name = "PhoneTb";
-            PhoneTb.Size = new Size(257, 28);
+            PhoneTb.Size = new Size(257, 33);
             PhoneTb.TabIndex = 29;
             // 
             // label4
@@ -221,7 +197,7 @@
             label4.ForeColor = SystemColors.Highlight;
             label4.Location = new Point(42, 115);
             label4.Name = "label4";
-            label4.Size = new Size(137, 21);
+            label4.Size = new Size(169, 24);
             label4.TabIndex = 28;
             label4.Text = "Member Name";
             // 
@@ -231,7 +207,7 @@
             NameTb.ForeColor = Color.Black;
             NameTb.Location = new Point(42, 148);
             NameTb.Name = "NameTb";
-            NameTb.Size = new Size(257, 28);
+            NameTb.Size = new Size(257, 33);
             NameTb.TabIndex = 27;
             // 
             // label3
@@ -239,9 +215,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(1174, 9);
+            label3.Location = new Point(1658, 9);
             label3.Name = "label3";
-            label3.Size = new Size(37, 37);
+            label3.Size = new Size(43, 43);
             label3.TabIndex = 26;
             label3.Text = "X";
             label3.Click += label3_Click;
@@ -251,9 +227,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.Highlight;
-            label2.Location = new Point(504, 17);
+            label2.Location = new Point(827, 17);
             label2.Name = "label2";
-            label2.Size = new Size(306, 37);
+            label2.Size = new Size(369, 43);
             label2.TabIndex = 25;
             label2.Text = "COMMERCIAL BANK";
             // 
@@ -262,9 +238,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Highlight;
-            label1.Location = new Point(474, 54);
+            label1.Location = new Point(791, 54);
             label1.Name = "label1";
-            label1.Size = new Size(367, 33);
+            label1.Size = new Size(440, 39);
             label1.TabIndex = 24;
             label1.Text = "UPDATE OR DELETE MEMBER";
             // 
@@ -273,9 +249,9 @@
             label12.AutoSize = true;
             label12.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.FromArgb(192, 0, 0);
-            label12.Location = new Point(338, 100);
+            label12.Location = new Point(820, 92);
             label12.Name = "label12";
-            label12.Size = new Size(313, 21);
+            label12.Size = new Size(382, 24);
             label12.TabIndex = 45;
             label12.Text = "Click On The Member To Be Deleted";
             // 
@@ -286,14 +262,15 @@
             label9.ForeColor = SystemColors.Highlight;
             label9.Location = new Point(42, 371);
             label9.Name = "label9";
-            label9.Size = new Size(154, 21);
+            label9.Size = new Size(190, 24);
             label9.TabIndex = 46;
             label9.Text = "Account Number";
             // 
-            // MemberSDGV
+            // dgv
             // 
-            MemberSDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            MemberSDGV.BackgroundColor = Color.White;
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.BackgroundColor = Color.White;
+            dgv.BorderStyle = BorderStyle.None;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = SystemColors.HotTrack;
             dataGridViewCellStyle1.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -301,8 +278,8 @@
             dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            MemberSDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            MemberSDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = SystemColors.Window;
             dataGridViewCellStyle2.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -310,15 +287,15 @@
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            MemberSDGV.DefaultCellStyle = dataGridViewCellStyle2;
-            MemberSDGV.GridColor = SystemColors.HotTrack;
-            MemberSDGV.Location = new Point(338, 121);
-            MemberSDGV.Name = "MemberSDGV";
-            MemberSDGV.RowHeadersWidth = 51;
-            MemberSDGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            MemberSDGV.Size = new Size(831, 450);
-            MemberSDGV.TabIndex = 47;
-            MemberSDGV.CellContentClick += MemberSDGV_CellContentClick;
+            dgv.DefaultCellStyle = dataGridViewCellStyle2;
+            dgv.GridColor = SystemColors.HotTrack;
+            dgv.Location = new Point(338, 124);
+            dgv.Name = "dgv";
+            dgv.RowHeadersWidth = 51;
+            dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgv.Size = new Size(1347, 545);
+            dgv.TabIndex = 47;
+            dgv.CellContentClick += MemberSDGV_CellContentClick;
             // 
             // button4
             // 
@@ -327,7 +304,7 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(132, 567);
+            button4.Location = new Point(123, 587);
             button4.Name = "button4";
             button4.Size = new Size(94, 45);
             button4.TabIndex = 48;
@@ -337,15 +314,12 @@
             // 
             // UpdateDelete
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1223, 692);
+            AutoScaleMode = AutoScaleMode.None;
+            ClientSize = new Size(1713, 717);
             Controls.Add(button4);
-            Controls.Add(MemberSDGV);
+            Controls.Add(dgv);
             Controls.Add(label9);
             Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -368,15 +342,12 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UpdateDelete";
             Load += UpdateDelete_Load;
-            ((System.ComponentModel.ISupportInitialize)MemberSDGV).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label11;
-        private Label label10;
         private Button button3;
         private Button button2;
         private Button button1;
@@ -396,7 +367,7 @@
         private Label label1;
         private Label label12;
         private Label label9;
-        private DataGridView MemberSDGV;
+        private DataGridView dgv;
         private Button button4;
     }
 }

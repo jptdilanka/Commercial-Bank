@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Commercial Bank.csproj": {}
+    "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Commercial Bank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Commercial Bank.csproj": {
+    "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Commercial Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Commercial Bank.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Commercial Bank.csproj",
         "projectName": "Commercial Bank",
-        "projectPath": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\Commercial Bank.csproj",
-        "packagesPath": "C:\\Users\\L e n o v o\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L e n o v o\\source\\repos\\BPERP\\Commercial Bank\\Commercial Bank\\obj\\",
+        "projectPath": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Commercial Bank.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\L e n o v o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +46,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.4.6, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -69,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

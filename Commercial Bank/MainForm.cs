@@ -26,7 +26,7 @@ namespace Commercial_Bank
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Transaction transaction = new Transaction();
+            AccountBalance transaction = new AccountBalance();
             transaction.Show();
             this.Hide();
         }
@@ -48,6 +48,20 @@ namespace Commercial_Bank
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void addbtn_Click(object sender, EventArgs e)
+        {
+            AddMember viewmember = new AddMember();
+            viewmember.Show();
+            this.Hide();
+        }
+
+        private void depositebtn_Click(object sender, EventArgs e)
+        {
+            DepositeForm viewmember = new DepositeForm();
+            viewmember.Show();
+            this.Hide();
         }
     }
 }
