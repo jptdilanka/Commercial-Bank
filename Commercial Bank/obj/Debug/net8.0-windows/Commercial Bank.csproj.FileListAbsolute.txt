@@ -98,3 +98,21 @@ C:\Users\pc\OneDrive\Documents\Commercial Bank\Commercial Bank\obj\Debug\net8.0-
 C:\Users\pc\OneDrive\Documents\Commercial Bank\Commercial Bank\obj\Debug\net8.0-windows\Commerci.170B9112.Up2Date
 C:\Users\pc\OneDrive\Documents\Commercial Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.genruntimeconfig.cache
 C:\Users\pc\OneDrive\Documents\Commercial Bank\Commercial Bank\obj\Debug\net8.0-windows\ref\Commercial Bank.dll
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.csproj.AssemblyReference.cache
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.AccountBalance.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.AddMember.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.DepositeForm.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.Login.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.MainForm.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.Properties.Resources.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.UpdateDelete.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.ViewMember.resources
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.csproj.GenerateResource.cache
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.AssemblyInfo.cs
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.csproj.CoreCompileInputs.cache
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.sourcelink.json
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.dll
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\refint\Commercial Bank.dll
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.pdb

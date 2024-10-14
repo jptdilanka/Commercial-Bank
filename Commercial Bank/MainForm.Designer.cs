@@ -32,7 +32,6 @@
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             depositebtn = new Button();
-            addbtn = new Button();
             button7 = new Button();
             pictureBox2 = new PictureBox();
             button4 = new Button();
@@ -49,7 +48,7 @@
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1586, 706);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -61,14 +60,13 @@
             // 
             panel1.BackColor = SystemColors.MenuHighlight;
             panel1.Controls.Add(depositebtn);
-            panel1.Controls.Add(addbtn);
             panel1.Controls.Add(button7);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(4, 4, 4, 4);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
             panel1.Size = new Size(1586, 89);
             panel1.TabIndex = 5;
@@ -82,30 +80,13 @@
             depositebtn.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             depositebtn.ForeColor = Color.Black;
             depositebtn.Location = new Point(1210, 15);
-            depositebtn.Margin = new Padding(4, 4, 4, 4);
+            depositebtn.Margin = new Padding(4);
             depositebtn.Name = "depositebtn";
             depositebtn.Size = new Size(127, 60);
             depositebtn.TabIndex = 8;
             depositebtn.Text = "Deposit";
             depositebtn.UseVisualStyleBackColor = true;
             depositebtn.Click += depositebtn_Click;
-            // 
-            // addbtn
-            // 
-            addbtn.FlatAppearance.BorderSize = 0;
-            addbtn.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            addbtn.FlatAppearance.MouseOverBackColor = SystemColors.HotTrack;
-            addbtn.FlatStyle = FlatStyle.Flat;
-            addbtn.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            addbtn.ForeColor = Color.Black;
-            addbtn.Location = new Point(625, 15);
-            addbtn.Margin = new Padding(4, 4, 4, 4);
-            addbtn.Name = "addbtn";
-            addbtn.Size = new Size(231, 60);
-            addbtn.TabIndex = 7;
-            addbtn.Text = "Add Customer";
-            addbtn.UseVisualStyleBackColor = true;
-            addbtn.Click += addbtn_Click;
             // 
             // button7
             // 
@@ -116,7 +97,7 @@
             button7.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.Black;
             button7.Location = new Point(1017, 15);
-            button7.Margin = new Padding(4, 4, 4, 4);
+            button7.Margin = new Padding(4);
             button7.Name = "button7";
             button7.Size = new Size(185, 60);
             button7.TabIndex = 6;
@@ -128,7 +109,7 @@
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(4, 9);
-            pictureBox2.Margin = new Padding(4, 4, 4, 4);
+            pictureBox2.Margin = new Padding(4);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(92, 66);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -144,7 +125,7 @@
             button4.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.Black;
             button4.Location = new Point(1345, 15);
-            button4.Margin = new Padding(4, 4, 4, 4);
+            button4.Margin = new Padding(4);
             button4.Name = "button4";
             button4.Size = new Size(228, 60);
             button4.TabIndex = 4;
@@ -161,7 +142,7 @@
             button3.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.Black;
             button3.Location = new Point(846, 15);
-            button3.Margin = new Padding(4, 4, 4, 4);
+            button3.Margin = new Padding(4);
             button3.Name = "button3";
             button3.Size = new Size(185, 60);
             button3.TabIndex = 3;
@@ -178,7 +159,7 @@
             button6.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.Black;
             button6.Location = new Point(806, 134);
-            button6.Margin = new Padding(4, 4, 4, 4);
+            button6.Margin = new Padding(4);
             button6.Name = "button6";
             button6.Size = new Size(185, 61);
             button6.TabIndex = 1;
@@ -194,7 +175,7 @@
             button5.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.Black;
             button5.Location = new Point(999, 134);
-            button5.Margin = new Padding(4, 4, 4, 4);
+            button5.Margin = new Padding(4);
             button5.Name = "button5";
             button5.Size = new Size(185, 61);
             button5.TabIndex = 3;
@@ -211,7 +192,7 @@
             Controls.Add(button5);
             Controls.Add(button6);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainForm";
@@ -231,7 +212,6 @@
         private Button button4;
         private Button button3;
         private Button button7;
-        private Button addbtn;
         private Button depositebtn;
     }
 }
