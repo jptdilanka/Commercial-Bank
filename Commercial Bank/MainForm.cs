@@ -31,13 +31,6 @@ namespace Commercial_Bank
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            UpdateDelete updatedelete = new UpdateDelete();
-            updatedelete.Show();
-            this.Hide();
-        }
-
         private void button7_Click(object sender, EventArgs e)
         {
             ViewMember viewmember = new ViewMember();
@@ -50,12 +43,6 @@ namespace Commercial_Bank
 
         }
 
-        private void addbtn_Click(object sender, EventArgs e)
-        {
-            AddMember viewmember = new AddMember();
-            viewmember.Show();
-            this.Hide();
-        }
 
         private void depositebtn_Click(object sender, EventArgs e)
         {

@@ -19,7 +19,7 @@ namespace Commercial_Bank
         {
             InitializeComponent();
         }
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=True");
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
@@ -99,36 +99,32 @@ namespace Commercial_Bank
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        private void SendEmail(string name, string accountNumber, string accountType)
+        private void SendEmail(string name, string accountNumber, string username, string password)
         {
             try
             {
-                // Setup SMTP client
-                SmtpClient client = new SmtpClient("smtp.gmail.com");
-                client.Port = 587; // or the port number your SMTP server uses
-                client.EnableSsl = true;
-                client.Credentials = new NetworkCredential("anushmanuja@gmail.com", "bcdptzzzuedsylvd");
+                SmtpClient client = new SmtpClient("smtp.gmail.com")
+                {
+                    Port = 587,
+                    EnableSsl = true,
+                    Credentials = new NetworkCredential("anushmanuja@gmail.com", "bcdptzzzuedsylvd")
+                };
 
-                // Create email message
-                MailMessage mailMessage = new MailMessage();
-                mailMessage.From = new MailAddress("anushmanuja@gmail.com");
+                MailMessage mailMessage = new MailMessage
+                {
+                    From = new MailAddress("anushmanuja@gmail.com"),
+                    Subject = "Welcome to Commercial Bank - Your Account is Now Active!",
+                    Body = $"Dear {name},\n\n" +
+                           "Welcome to Commercial Bank! Here are your account credentials:\n\n" +
+                           $"Account Holder Name: {name}\n" +
+                           $"Account Number: {accountNumber}\n" +
+                           $"Username: {username}\n" +
+                           $"Password: {password}\n\n" +
+                           "Thank you for choosing Commercial Bank.\n\n" +
+                           "Best regards,\nCommercial Bank Team"
+                };
 
-                // Use emailtextbox.Text for recipient email
                 mailMessage.To.Add(emailtextbox.Text);
-                mailMessage.Subject = "Welcome to Commercial Bank - Your Account is Now Active!";
-                mailMessage.Body = $"Dear {name},\n\n" +
-                                   "Welcome to Commercial Bank! We are thrilled to have you join us as a valued member. Below are your account credentials and details:\n\n" +
-                                   "-----------------------------------------------------\n" +
-                                   $"Account Holder Name: {name}\n" +
-                                   $"Account Number: {accountNumber}\n" +
-                                   $"Account Type: {accountType}\n" +
-                                   "-----------------------------------------------------\n\n" +
-                                   "For your convenience, you can now access your account online through our secure banking portal.\n\n" +
-                                   "If you have any questions or need assistance, feel free to contact our support team. We look forward to serving you and ensuring your financial success!\n\n" +
-                                   "Thank you for choosing Commercial Bank.\n\n" +
-                                   "Warm regards,\n" +
-                                   "Commercial Bank Team";
-
                 client.Send(mailMessage);
                 MessageBox.Show("Account details have been sent to the user's email.");
             }
@@ -137,7 +133,6 @@ namespace Commercial_Bank
                 MessageBox.Show("Failed to send email: " + ex.Message);
             }
         }
-
         private bool ValidateNIC(string nic)
         {
 
@@ -213,6 +208,7 @@ namespace Commercial_Bank
             return accountNumber;
         }
 
+       
     }
 }
 

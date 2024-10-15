@@ -261,6 +261,7 @@
             // searchbtn
             // 
             searchbtn.BackColor = Color.Transparent;
+            searchbtn.Cursor = Cursors.Hand;
             searchbtn.DisabledState.BorderColor = Color.DarkGray;
             searchbtn.DisabledState.CustomBorderColor = Color.DarkGray;
             searchbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);

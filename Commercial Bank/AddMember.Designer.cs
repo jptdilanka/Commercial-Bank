@@ -50,6 +50,8 @@
             button4 = new Button();
             label12 = new Label();
             emailtextbox = new TextBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -94,7 +96,7 @@
             NameTb.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             NameTb.ForeColor = Color.Black;
             NameTb.Location = new Point(124, 259);
-            NameTb.Margin = new Padding(4, 4, 4, 4);
+            NameTb.Margin = new Padding(4);
             NameTb.Name = "NameTb";
             NameTb.Size = new Size(320, 33);
             NameTb.TabIndex = 5;
@@ -128,7 +130,7 @@
             PhoneTb.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             PhoneTb.ForeColor = Color.Black;
             PhoneTb.Location = new Point(589, 259);
-            PhoneTb.Margin = new Padding(4, 4, 4, 4);
+            PhoneTb.Margin = new Padding(4);
             PhoneTb.Name = "PhoneTb";
             PhoneTb.Size = new Size(320, 33);
             PhoneTb.TabIndex = 7;
@@ -150,7 +152,7 @@
             AgeTb.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             AgeTb.ForeColor = Color.Black;
             AgeTb.Location = new Point(1088, 259);
-            AgeTb.Margin = new Padding(4, 4, 4, 4);
+            AgeTb.Margin = new Padding(4);
             AgeTb.Name = "AgeTb";
             AgeTb.Size = new Size(320, 33);
             AgeTb.TabIndex = 9;
@@ -174,7 +176,7 @@
             GenderCb.FormattingEnabled = true;
             GenderCb.Items.AddRange(new object[] { "Male", "Female" });
             GenderCb.Location = new Point(124, 392);
-            GenderCb.Margin = new Padding(4, 4, 4, 4);
+            GenderCb.Margin = new Padding(4);
             GenderCb.Name = "GenderCb";
             GenderCb.Size = new Size(320, 31);
             GenderCb.TabIndex = 13;
@@ -197,7 +199,7 @@
             AccTypeCb.FormattingEnabled = true;
             AccTypeCb.Items.AddRange(new object[] { "Savings Account", "Current Account" });
             AccTypeCb.Location = new Point(1089, 392);
-            AccTypeCb.Margin = new Padding(4, 4, 4, 4);
+            AccTypeCb.Margin = new Padding(4);
             AccTypeCb.Name = "AccTypeCb";
             AccTypeCb.Size = new Size(320, 31);
             AccTypeCb.TabIndex = 16;
@@ -219,7 +221,7 @@
             AccNoTb.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             AccNoTb.ForeColor = Color.Black;
             AccNoTb.Location = new Point(591, 394);
-            AccNoTb.Margin = new Padding(4, 4, 4, 4);
+            AccNoTb.Margin = new Padding(4);
             AccNoTb.Name = "AccNoTb";
             AccNoTb.Size = new Size(320, 33);
             AccNoTb.TabIndex = 17;
@@ -232,7 +234,7 @@
             button1.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button1.ForeColor = Color.White;
             button1.Location = new Point(425, 655);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(196, 58);
             button1.TabIndex = 19;
@@ -248,7 +250,7 @@
             button2.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button2.ForeColor = Color.White;
             button2.Location = new Point(666, 655);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
             button2.Size = new Size(196, 58);
             button2.TabIndex = 20;
@@ -289,7 +291,7 @@
             button4.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             button4.ForeColor = Color.White;
             button4.Location = new Point(910, 655);
-            button4.Margin = new Padding(4, 4, 4, 4);
+            button4.Margin = new Padding(4);
             button4.Name = "button4";
             button4.Size = new Size(251, 58);
             button4.TabIndex = 24;
@@ -314,10 +316,18 @@
             emailtextbox.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             emailtextbox.ForeColor = Color.Black;
             emailtextbox.Location = new Point(124, 538);
-            emailtextbox.Margin = new Padding(4, 4, 4, 4);
+            emailtextbox.Margin = new Padding(4);
             emailtextbox.Name = "emailtextbox";
             emailtextbox.Size = new Size(393, 33);
             emailtextbox.TabIndex = 25;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(1378, 655);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(150, 75);
+            pictureBox1.TabIndex = 27;
+            pictureBox1.TabStop = false;
             // 
             // AddMember
             // 
@@ -325,6 +335,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1560, 795);
+            Controls.Add(pictureBox1);
             Controls.Add(label12);
             Controls.Add(emailtextbox);
             Controls.Add(button4);
@@ -348,11 +359,12 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "AddMember";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AddMember";
             Load += AddMember_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -381,5 +393,6 @@
         private Button button4;
         private Label label12;
         private TextBox emailtextbox;
+        private PictureBox pictureBox1;
     }
 }

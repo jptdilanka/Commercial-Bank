@@ -31,8 +31,6 @@ namespace Commercial_Bank
         {
             // Clear previous details
             ClearLabels();
-            detailspanel.Visible = false; // Hide details panel initially
-            MessageLabel.Visible = false; // Hide message label
 
             string accountNo = AccountNoTextBox.Text.Trim();
 
@@ -180,6 +178,7 @@ namespace Commercial_Bank
                         // Send email notification
                         SendEmail(memberName, accountNo, depositAmount, depositAmount, memberEmail);
                     }
+                    depositetxtbox.Text = "";
                 }
                 else
                 {
