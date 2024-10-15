@@ -52,7 +52,7 @@ namespace Commercial_Bank
             dgv.TabStop = false;
         }
 
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30");
 
         private void populate()
         {

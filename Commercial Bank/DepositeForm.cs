@@ -16,7 +16,7 @@ namespace Commercial_Bank
 {
     public partial class DepositeForm : Form
     {
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30");
         public DepositeForm()
         {
             InitializeComponent();
@@ -216,13 +216,13 @@ namespace Commercial_Bank
                 mailMessage.Subject = "Deposit Confirmation";
                 mailMessage.Body = $"Dear {name},\n\n" +
                                    "Your deposit was successful!\n\n" +
-                                   $"**Account Holder Name**: {name}\n" +
-                                   $"**Account Number**: {accountNumber}\n" +
-                                   $"**Deposit Amount**: {depositAmount.ToString("C")}\n" +
-                                   $"**Current Balance**: {newBalance.ToString("C")}\n\n" +
+                                   $"Account Holder Name: {name}\n" +
+                                   $"Account Number: {accountNumber}\n" +
+                                   $"Deposit Amount: {depositAmount.ToString("C")}\n" +
+                                   $"Current Balance: {newBalance.ToString("C")}\n\n" +
                                    "Thank you for banking with us!\n\n" +
                                    "Best regards,\n" +
-                                   "**Commercial Bank Team**";
+                                   "Commercial Bank Team";
 
                 client.Send(mailMessage);
                 MessageBox.Show("Deposit confirmation email sent to the user.");

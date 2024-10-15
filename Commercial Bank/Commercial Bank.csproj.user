@@ -7,6 +7,9 @@
     <Compile Update="AddMember.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ChatbotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DepositeForm.cs">
       <SubType>Form</SubType>
     </Compile>

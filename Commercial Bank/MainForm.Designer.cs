@@ -29,18 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
+            profilebtn = new Guna.UI2.WinForms.Guna2CircleButton();
             depositebtn = new Button();
             button7 = new Button();
             pictureBox2 = new PictureBox();
             button4 = new Button();
             button3 = new Button();
+            profilepanel = new Guna.UI2.WinForms.Guna2Panel();
+            label1 = new Label();
+            logout = new Guna.UI2.WinForms.Guna2Button();
             button6 = new Button();
             button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            profilepanel.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -59,6 +69,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Controls.Add(profilebtn);
             panel1.Controls.Add(depositebtn);
             panel1.Controls.Add(button7);
             panel1.Controls.Add(pictureBox2);
@@ -70,6 +81,28 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1586, 89);
             panel1.TabIndex = 5;
+            panel1.Paint += panel1_Paint;
+            // 
+            // profilebtn
+            // 
+            profilebtn.BackColor = Color.Transparent;
+            profilebtn.Cursor = Cursors.Hand;
+            profilebtn.DisabledState.BorderColor = Color.DarkGray;
+            profilebtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            profilebtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            profilebtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            profilebtn.FillColor = Color.Transparent;
+            profilebtn.Font = new Font("Segoe UI", 9F);
+            profilebtn.ForeColor = Color.White;
+            profilebtn.Image = (Image)resources.GetObject("profilebtn.Image");
+            profilebtn.ImageSize = new Size(55, 55);
+            profilebtn.Location = new Point(1512, 14);
+            profilebtn.Name = "profilebtn";
+            profilebtn.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            profilebtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            profilebtn.Size = new Size(67, 74);
+            profilebtn.TabIndex = 9;
+            profilebtn.Click += profilebtn_Click;
             // 
             // depositebtn
             // 
@@ -79,7 +112,7 @@
             depositebtn.FlatStyle = FlatStyle.Flat;
             depositebtn.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             depositebtn.ForeColor = Color.Black;
-            depositebtn.Location = new Point(1210, 15);
+            depositebtn.Location = new Point(1109, 15);
             depositebtn.Margin = new Padding(4);
             depositebtn.Name = "depositebtn";
             depositebtn.Size = new Size(127, 60);
@@ -96,7 +129,7 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.Black;
-            button7.Location = new Point(1017, 15);
+            button7.Location = new Point(916, 15);
             button7.Margin = new Padding(4);
             button7.Name = "button7";
             button7.Size = new Size(185, 60);
@@ -124,7 +157,7 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.Black;
-            button4.Location = new Point(1345, 15);
+            button4.Location = new Point(1244, 15);
             button4.Margin = new Padding(4);
             button4.Name = "button4";
             button4.Size = new Size(228, 60);
@@ -141,7 +174,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.Black;
-            button3.Location = new Point(846, 15);
+            button3.Location = new Point(745, 15);
             button3.Margin = new Padding(4);
             button3.Name = "button3";
             button3.Size = new Size(185, 60);
@@ -149,6 +182,50 @@
             button3.Text = "Actions";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
+            // 
+            // profilepanel
+            // 
+            profilepanel.BackColor = Color.Black;
+            profilepanel.Controls.Add(label1);
+            profilepanel.Controls.Add(logout);
+            profilepanel.CustomizableEdges = customizableEdges4;
+            profilepanel.ForeColor = Color.Cyan;
+            profilepanel.Location = new Point(1365, 85);
+            profilepanel.Name = "profilepanel";
+            profilepanel.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            profilepanel.Size = new Size(209, 118);
+            profilepanel.TabIndex = 10;
+            profilepanel.Visible = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(48, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(120, 23);
+            label1.TabIndex = 1;
+            label1.Text = "User : Admin";
+            // 
+            // logout
+            // 
+            logout.Cursor = Cursors.Hand;
+            logout.CustomizableEdges = customizableEdges2;
+            logout.DisabledState.BorderColor = Color.DarkGray;
+            logout.DisabledState.CustomBorderColor = Color.DarkGray;
+            logout.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            logout.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            logout.FillColor = Color.Red;
+            logout.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            logout.ForeColor = Color.White;
+            logout.Location = new Point(48, 61);
+            logout.Name = "logout";
+            logout.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            logout.Size = new Size(120, 38);
+            logout.TabIndex = 0;
+            logout.Text = "LogOut";
+            logout.Click += logout_Click;
             // 
             // button6
             // 
@@ -187,6 +264,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1586, 706);
+            Controls.Add(profilepanel);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
             Controls.Add(button5);
@@ -199,6 +277,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            profilepanel.ResumeLayout(false);
+            profilepanel.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -213,5 +293,9 @@
         private Button button3;
         private Button button7;
         private Button depositebtn;
+        private Guna.UI2.WinForms.Guna2Panel profilepanel;
+        private Guna.UI2.WinForms.Guna2CircleButton profilebtn;
+        private Label label1;
+        private Guna.UI2.WinForms.Guna2Button logout;
     }
 }

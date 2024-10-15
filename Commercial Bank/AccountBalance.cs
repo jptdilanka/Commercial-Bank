@@ -14,7 +14,7 @@ namespace Commercial_Bank
 {
     public partial class AccountBalance : Form
     {
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30");
         public AccountBalance()
         {
             InitializeComponent();
@@ -52,6 +52,7 @@ namespace Commercial_Bank
 
                     // Make details panel visible
                     detailspanel.Visible = true;
+                    MessageLabel.Text = "";
                 }
                 else
                 {
@@ -81,6 +82,11 @@ namespace Commercial_Bank
             MainForm mainform = new MainForm();
             mainform.Show();
             this.Hide();
+        }
+
+        private void AccountBalance_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

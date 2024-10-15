@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddMember));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -295,7 +296,7 @@
             button4.Name = "button4";
             button4.Size = new Size(251, 58);
             button4.TabIndex = 24;
-            button4.Text = "Back To Dashboard";
+            button4.Text = "Back To Login";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
@@ -323,11 +324,15 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(1378, 655);
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(1364, 634);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(150, 75);
+            pictureBox1.Size = new Size(100, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 27;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // AddMember
             // 

@@ -19,7 +19,7 @@ namespace Commercial_Bank
         {
             InitializeComponent();
         }
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=True");
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30");
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
@@ -181,7 +181,7 @@ namespace Commercial_Bank
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MainForm mainform = new MainForm();
+            Login mainform = new Login();
             mainform.Show();
             this.Hide();
         }
@@ -208,7 +208,12 @@ namespace Commercial_Bank
             return accountNumber;
         }
 
-       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            ChatbotForm mainform = new ChatbotForm();
+            mainform.Show();
+           
+        }
     }
 }
 

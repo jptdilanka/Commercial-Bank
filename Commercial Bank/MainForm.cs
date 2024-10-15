@@ -40,7 +40,7 @@ namespace Commercial_Bank
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            profilepanel.Visible = false;
         }
 
 
@@ -49,6 +49,24 @@ namespace Commercial_Bank
             DepositeForm viewmember = new DepositeForm();
             viewmember.Show();
             this.Hide();
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            Login viewmember = new Login();
+            viewmember.Show();
+            this.Hide();
+        }
+
+        private void profilebtn_Click(object sender, EventArgs e)
+        {
+            profilepanel.Visible = true;
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

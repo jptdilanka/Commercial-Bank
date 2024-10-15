@@ -30,14 +30,14 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            SearchMemberTb = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
             button3 = new Button();
             dgv = new DataGridView();
+            searchtextbox = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
             // 
@@ -77,48 +77,6 @@
             label1.Size = new Size(207, 39);
             label1.TabIndex = 5;
             label1.Text = "MEMBER LIST";
-            // 
-            // SearchMemberTb
-            // 
-            SearchMemberTb.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SearchMemberTb.ForeColor = Color.Black;
-            SearchMemberTb.Location = new Point(59, 165);
-            SearchMemberTb.Margin = new Padding(4);
-            SearchMemberTb.Name = "SearchMemberTb";
-            SearchMemberTb.Size = new Size(386, 33);
-            SearchMemberTb.TabIndex = 46;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Green;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(465, 165);
-            button1.Margin = new Padding(4);
-            button1.Name = "button1";
-            button1.Size = new Size(139, 35);
-            button1.TabIndex = 47;
-            button1.Text = "Search";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Green;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(611, 165);
-            button2.Margin = new Padding(4);
-            button2.Name = "button2";
-            button2.Size = new Size(139, 35);
-            button2.TabIndex = 48;
-            button2.Text = "Refresh";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -166,16 +124,37 @@
             dgv.Size = new Size(1347, 545);
             dgv.TabIndex = 50;
             // 
+            // searchtextbox
+            // 
+            searchtextbox.CustomizableEdges = customizableEdges1;
+            searchtextbox.DefaultText = "";
+            searchtextbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            searchtextbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            searchtextbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            searchtextbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            searchtextbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            searchtextbox.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            searchtextbox.ForeColor = Color.Black;
+            searchtextbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            searchtextbox.Location = new Point(16, 161);
+            searchtextbox.Margin = new Padding(7, 6, 7, 6);
+            searchtextbox.Name = "searchtextbox";
+            searchtextbox.PasswordChar = '\0';
+            searchtextbox.PlaceholderText = "Click here to Search The Member";
+            searchtextbox.SelectedText = "";
+            searchtextbox.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            searchtextbox.Size = new Size(441, 44);
+            searchtextbox.TabIndex = 51;
+            searchtextbox.TextChanged += searchtextbox_TextChanged;
+            // 
             // ViewMember
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1381, 876);
+            Controls.Add(searchtextbox);
             Controls.Add(dgv);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(SearchMemberTb);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -195,10 +174,8 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private TextBox SearchMemberTb;
-        private Button button1;
-        private Button button2;
         private Button button3;
         private DataGridView dgv;
+        private Guna.UI2.WinForms.Guna2TextBox searchtextbox;
     }
 }

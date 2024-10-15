@@ -308,6 +308,7 @@
             Name = "AccountBalance";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AccountBalance";
+            Load += AccountBalance_Load;
             detailspanel.ResumeLayout(false);
             detailspanel.PerformLayout();
             ResumeLayout(false);

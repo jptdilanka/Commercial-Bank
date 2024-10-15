@@ -133,3 +133,4 @@ C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\bi
 C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commerci.170B9112.Up2Date
 C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial Bank.genruntimeconfig.cache
 C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\ref\Commercial Bank.dll
+C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\Commercial Bank\obj\Debug\net8.0-windows\Commercial_Bank.ChatbotForm.resources

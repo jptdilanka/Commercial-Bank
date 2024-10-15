@@ -13,10 +13,15 @@ namespace Commercial_Bank
 {
     public partial class ViewMember : Form
     {
+        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\New folder (2)\Commercial-Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30");
+
         public ViewMember()
         {
             InitializeComponent();
-              DataGridViewCellStyle cellStyle = new DataGridViewCellStyle();
+            // Subscribe to the TextChanged event of the SearchMemberTb textbox
+            searchtextbox.TextChanged += new EventHandler(searchtextbox_TextChanged);
+
+            DataGridViewCellStyle cellStyle = new DataGridViewCellStyle();
             DataGridViewCellStyle headerStyle = new DataGridViewCellStyle();
             dgv.AllowDrop = true;
             dgv.AllowUserToAddRows = false;
@@ -51,6 +56,7 @@ namespace Commercial_Bank
             dgv.TabIndex = 0;
             dgv.TabStop = false;
         }
+
         private void populateview()
         {
             dgv.AutoGenerateColumns = false;  // Disable auto-generation of columns
@@ -65,7 +71,6 @@ namespace Commercial_Bank
 
             // Manually create and add columns with meaningful headers
             dgv.Columns.Clear();  // Clear any existing columns
-
 
             DataGridViewTextBoxColumn usernameColumn = new DataGridViewTextBoxColumn();
             usernameColumn.HeaderText = "User Name";
@@ -108,8 +113,7 @@ namespace Commercial_Bank
         {
             Application.Exit();
         }
-
-        SqlConnection Con = new(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\pc\OneDrive\Documents\Commercial Bank\source\BankDataBase.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        
         private void populate()
         {
             Con.Open();
@@ -125,21 +129,14 @@ namespace Commercial_Bank
         {
             populateview();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MainForm mainform = new MainForm();
-            mainform.Show();
-            this.Hide();
-        }
         private void filterByName()
         {
             try
             {
                 Con.Open();
-                string query = "SELECT * FROM MemberTbl WHERE MName = @MemberName";
+                string query = "SELECT * FROM MemberTbl WHERE MName LIKE @MemberName";  // Using LIKE for partial matches
                 SqlDataAdapter sda = new SqlDataAdapter(query, Con);
-                sda.SelectCommand.Parameters.AddWithValue("@MemberName", SearchMemberTb.Text);
+                sda.SelectCommand.Parameters.AddWithValue("@MemberName", "%" + searchtextbox.Text + "%");  // Use % for wildcard search
                 var ds = new DataSet();
                 sda.Fill(ds);
                 dgv.DataSource = ds.Tables[0];
@@ -150,16 +147,16 @@ namespace Commercial_Bank
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MainForm mainform = new MainForm();
+            mainform.Show();
+            this.Hide();
+        }
+
+        private void searchtextbox_TextChanged(object sender, EventArgs e)
         {
             filterByName();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            populate();
-        }
-
-        
     }
 }

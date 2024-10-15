@@ -3,8 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\updatedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.MemberTbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -13,35 +60,11 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\accountbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\depositeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\viewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|c:\\users\\pc\\onedrive\\documents\\new folder (2)\\commercial-bank\\commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6CA9D1CF-22BB-446C-B7E3-54A39DE12F72}|Commercial Bank\\Commercial Bank.csproj|solutionrelative:commercial bank\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -56,106 +79,183 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.Accounts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "dbo.Accounts [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-15T04:47:34.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepositeForm.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\DepositeForm.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
-              "RelativeToolTip": "Commercial Bank\\DepositeForm.cs",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAwwLcAAAARAAAA",
+              "Title": "AddMember.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AddMember.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeToolTip": "Commercial Bank\\AddMember.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:34:49.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Program.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\Program.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Program.cs",
-              "RelativeToolTip": "Commercial Bank\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:18:50.126Z",
+              "WhenOpened": "2024-10-15T14:13:48.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.MemberTbl [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.MemberTbl.sql",
-              "ToolTip": "dbo.MemberTbl [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-15T04:35:13.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountBalance.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\AccountBalance.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs [Design]",
-              "RelativeToolTip": "Commercial Bank\\AccountBalance.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:52:07.827Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepositeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\DepositeForm.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs [Design]",
-              "RelativeToolTip": "Commercial Bank\\DepositeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:12:08.31Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewMember.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs",
-              "RelativeToolTip": "Commercial Bank\\ViewMember.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAswJ0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:13:17.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ViewMember.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs",
               "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs [Design]",
-              "RelativeToolTip": "Commercial Bank\\ViewMember.cs [Design]",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs [Design]*",
+              "RelativeToolTip": "Commercial Bank\\ViewMember.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T04:13:02.703Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Program.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Program.cs",
+              "RelativeToolTip": "Commercial Bank\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:18:50.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewMember.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\ViewMember.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\ViewMember.cs*",
+              "RelativeToolTip": "Commercial Bank\\ViewMember.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:13:17.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAOwUAAAAAAAAAAApwOYUAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-15T14:52:57.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddMember.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AddMember.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AddMember.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AddMember.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\AddMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:03:57.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepositeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\DepositeForm.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\DepositeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:12:08.31Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "AccountBalance.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AccountBalance.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs",
+              "RelativeToolTip": "Commercial Bank\\AccountBalance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:16:58.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepositeForm.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\DepositeForm.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\DepositeForm.cs",
+              "RelativeToolTip": "Commercial Bank\\DepositeForm.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAgwO8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:34:49.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\MainForm.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\MainForm.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\MainForm.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:52:32.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountBalance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\AccountBalance.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\AccountBalance.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\AccountBalance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:52:07.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateDelete.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\UpdateDelete.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\UpdateDelete.cs [Design]",
+              "RelativeToolTip": "Commercial Bank\\UpdateDelete.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:17:03.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateDelete.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeDocumentMoniker": "Commercial Bank\\UpdateDelete.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\UpdateDelete.cs",
+              "RelativeToolTip": "Commercial Bank\\UpdateDelete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:17:17.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Accounts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.Accounts.sql",
+              "ToolTip": "dbo.Accounts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-15T04:47:34.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.MemberTbl [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PC_ONEDRIVE_DOCUMENTS_COMMERCIAL_BANK_SOURCE_BANKDATABASE.MDF/True/SqlTable/dbo.MemberTbl.sql",
+              "ToolTip": "dbo.MemberTbl [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-15T04:35:13.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\MainForm.cs",
               "RelativeDocumentMoniker": "Commercial Bank\\MainForm.cs",
@@ -163,12 +263,11 @@
               "RelativeToolTip": "Commercial Bank\\MainForm.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:00:45.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T04:00:45.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Login.cs",
               "RelativeDocumentMoniker": "Commercial Bank\\Login.cs",
@@ -181,27 +280,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Login.cs",
               "RelativeDocumentMoniker": "Commercial Bank\\Login.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\Login.cs [Design]",
               "RelativeToolTip": "Commercial Bank\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T03:53:11.384Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\MainForm.cs",
-              "RelativeDocumentMoniker": "Commercial Bank\\MainForm.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Documents\\New folder (2)\\Commercial-Bank\\Commercial Bank\\MainForm.cs [Design]",
-              "RelativeToolTip": "Commercial Bank\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T03:52:32.039Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-15T03:53:11.384Z"
             }
           ]
         }
